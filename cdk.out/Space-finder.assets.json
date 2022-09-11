@@ -1,0 +1,19 @@
+{
+  "version": "21.0.0",
+  "files": {
+    "3055a6909cbec0446065c358f86fe4538657d34fa4345fdf0c811d909d9bdd45": {
+      "source": {
+        "path": "Space-finder.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "3055a6909cbec0446065c358f86fe4538657d34fa4345fdf0c811d909d9bdd45.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
